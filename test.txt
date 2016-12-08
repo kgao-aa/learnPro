@@ -1,0 +1,173 @@
+In [1]: history
+history
+
+In [2]: name = 'gaopp'
+
+In [3]: name 
+Out[3]: 'gaopp'
+
+In [4]: name = 'student'
+
+In [5]: name 
+Out[5]: 'student'
+
+In [6]: name = 12
+
+In [7]: name 
+Out[7]: 12
+
+In [8]: name = ['gaopp','gaokeqing','woshiagaopp']
+
+In [9]: name[1]
+Out[9]: 'gaokeqing'
+
+In [10]: name =['gaopp',12,'gaokeqinf']
+
+In [11]: name[1]
+Out[11]: 12
+
+In [12]: sub =['gaopp',name,'haha']
+
+In [13]: sub[1][1]
+Out[13]: 12
+
+In [14]: for item in sub:
+    ...:     print item 
+    ...:     
+gaopp
+['gaopp', 12, 'gaokeqinf']
+haha
+
+In [15]: for item in sub :
+    ...:     for subitem in item :
+    ...:         print subitem
+    ...:         
+g
+a
+o
+p
+p
+gaopp
+12
+gaokeqinf
+h
+a
+h
+a
+
+In [16]: name = 'gaopp'
+
+In [17]: for cha in name :
+    ...:     print cha
+    ...:     
+g
+a
+o
+p
+p
+
+In [18]: name = [12,23,45]
+
+In [19]: bigname = [1,2,name,'gaopp
+  File "<ipython-input-19-60492720fb7f>", line 1
+    bigname = [1,2,name,'gaopp
+                             ^
+SyntaxError: EOL while scanning string literal
+
+
+In [20]: bigname = [1,2,name,'gaopp']
+
+In [21]: bigname[2][1]
+Out[21]: 23
+
+In [22]: for item in bigname:
+    ...:     for subitem in item:
+    ...:         print subitem
+    ...:         
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-22-7f16094ca2b7> in <module>()
+      1 for item in bigname:
+----> 2     for subitem in item:
+      3         print subitem
+      4 
+
+TypeError: 'int' object is not iterable
+
+In [23]: name[1]
+Out[23]: 23
+
+In [24]: name.append('haha')
+
+In [25]: for item in name :
+    ...:     print item 
+    ...:     
+12
+23
+45
+haha
+
+In [26]: name.pop()
+Out[26]: 'haha'
+
+In [27]: for item in name :
+    ...:     print item 
+    ...:     
+12
+23
+45
+
+In [28]: name.insert('bada')
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-28-b1e45b608ae7> in <module>()
+----> 1 name.insert('bada')
+
+TypeError: insert() takes exactly 2 arguments (1 given)
+
+In [29]: name.insert(1,'gd')
+
+In [30]: for item in name :
+    ...:     print item 
+    ...:     
+12
+gd
+23
+45
+
+In [31]: name[-1]
+Out[31]: 45
+
+In [32]: name.pop(2)
+Out[32]: 23
+
+In [33]: haha = ('dada','hello','nimeide')
+
+In [34]: for item in haha:
+    ...:     print item 
+    ...:     
+dada
+hello
+nimeide
+
+In [35]: haha.append('dada')
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-35-14beceb18d90> in <module>()
+----> 1 haha.append('dada')
+
+AttributeError: 'tuple' object has no attribute 'append'
+
+In [36]: haha[1]=1
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+<ipython-input-36-83576db5012f> in <module>()
+----> 1 haha[1]=12
+
+TypeError: 'tuple' object does not support item assignment
+
+In [37]: history >simpeTest.txt
+
+In [38]: exitc
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
