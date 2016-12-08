@@ -1,0 +1,102 @@
+data = range(20)
+data
+data1 = data
+data1
+data2 = data1[1:9]
+data2
+name = ['gaopp','gaokeqing','day']
+combine = data2 + name
+combine
+haha ={1:'gaopp',2:'gaokeqing',3:'woshigaopp'}
+haha
+for key in haha :
+    print haha[key]
+for key in haha :
+    print key
+for key in haha:
+    print key ':
+for key in haha:
+    print key ':' haha[key]
+for key in haha:
+    print key, ':', haha[key]
+haha.append(4,"dada")
+haha = haha + {212:"woshigaopp"}
+haha.update({21:"woshaigaopp"})
+hah
+haha
+haha.update({1:gao})
+haha.update({1:'gao'})
+haha
+haha.pop(2)
+haha
+haha.pop(21)
+def find(dic,key):
+    for item in dic:
+        if item == key
+def find(dic,key):
+    for item in dic:
+        if item == key
+def find(dic,key):
+    for item in dic:
+        if item == key :
+            return true 
+        else
+def find(dic,key):
+    for item in dic:
+        if item == key :
+            return true 
+        else:
+            return false
+find(haha,2)
+def find(dic,key):
+    for item in dic:
+        if item == key :
+            return True 
+        else:
+            continue
+    return False
+find(haha,2)
+find(haha,1)
+data = [1,2,4,3,5]
+Hset = (data)
+Hset
+Hset.sort()
+Hset
+Hset.remove(3)
+Hset
+Hset.remove(3)
+Hset.add(3)
+tset = set(data)
+tset
+tset.add(3)
+tset
+tset.remove(2)
+tset
+tset.remove(2)
+tset.sort()
+for item in tset:
+    print item
+bset = tset
+bset
+tset.add(8)
+tset
+tset == bset
+bset
+cset = tset.copy()
+cset
+tset.add(9)
+cset
+cset == tset
+cset < tset
+cset.add(9)
+cset < tset
+cset == tset
+cset.add(10)
+cset < tset
+tset.index(2)
+hello = 'dadad'
+world = 'meer'
+print hello + world
+print 'hello %s ! my name is %s' % (mike,jhon)
+print 'hello %s ! my name is %s' % ('mike','jhon')
+print 'hello {}! my name is {}'.format('mike','jhon')
